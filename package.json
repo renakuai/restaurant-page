@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "TOP Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renakuai/restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renakuai/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/renakuai/restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
